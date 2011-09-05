@@ -1,3 +1,8 @@
+/***
+ * citystateproto: IEntity.cs
+ * Copyright Stuart Golodetz, 2011. All rights reserved.
+ ***/
+
 internal interface IEntityVisitor
 {
 	// TODO

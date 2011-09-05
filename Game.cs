@@ -1,3 +1,8 @@
+/***
+ * citystateproto: Game.cs
+ * Copyright Stuart Golodetz, 2011. All rights reserved.
+ ***/
+
 public class Game
 {
 	// PRIVATE VARIABLES

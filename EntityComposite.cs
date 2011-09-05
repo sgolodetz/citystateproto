@@ -1,3 +1,8 @@
+/***
+ * citystateproto: EntityComposite.cs
+ * Copyright Stuart Golodetz, 2011. All rights reserved.
+ ***/
+
 using System;
 
 internal abstract class EntityComposite : IEntity

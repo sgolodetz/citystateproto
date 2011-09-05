@@ -1,3 +1,8 @@
+/***
+ * citystateproto: Model.cs
+ * Copyright Stuart Golodetz, 2011. All rights reserved.
+ ***/
+
 internal class Model
 {
 	// PRIVATE VARIABLES
