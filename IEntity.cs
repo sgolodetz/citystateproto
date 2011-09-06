@@ -10,7 +10,10 @@ internal interface IEntityVisitor
 
 internal interface IEntity
 {
-	IEntity[] GetChildren();
-	IEntity GetParent();
+	// ABSTRACT PROPERTIES
+	IEntity[] Children { get; }
+	IEntity Parent { get; }
+
+	// PUBLIC ABSTRACT METHODS
 	void Visit(IEntityVisitor v);
 }

@@ -37,6 +37,7 @@
     <Compile Include="Model.cs" />
     <Compile Include="IEntity.cs" />
     <Compile Include="World.cs" />
-    <Compile Include="EntityComposite.cs" />
+    <Compile Include="CompositeEntity.cs" />
+    <Compile Include="City.cs" />
   </ItemGroup>
 </Project>

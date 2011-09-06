@@ -11,7 +11,9 @@ public class Game
 	// PUBLIC METHODS
 	public Game()
 	{
-		m_model = new Model();
+		World world = new World();
+		world.AddChild(new City("Tamoma"));
+		m_model = new Model(world);
 	}
 
 	public void Run()

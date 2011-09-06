@@ -6,10 +6,16 @@
 internal class Model
 {
 	// PRIVATE VARIABLES
-	private IEntity m_tree = new World();
+	private IEntity m_tree;
 
 	// PROPERTIES
 	public IEntity Tree { get { return m_tree; } }
+
+	// CONSTRUCTORS
+	public Model(IEntity tree)
+	{
+		m_tree = tree;
+	}
 
 	// PUBLIC METHODS
 	public void Update()
